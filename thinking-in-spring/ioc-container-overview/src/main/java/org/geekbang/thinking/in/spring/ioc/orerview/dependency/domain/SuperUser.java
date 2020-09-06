@@ -1,6 +1,6 @@
-package ioc.overview.dependency.domain;
+package org.geekbang.thinking.in.spring.ioc.orerview.dependency.domain;
 
-import ioc.overview.annotation.Super;
+import org.geekbang.thinking.in.spring.ioc.orerview.annotation.Super;
 
 /**
  * 超级用户

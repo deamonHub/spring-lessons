@@ -1,4 +1,4 @@
-package ioc.overview.dependency.domain;
+package org.geekbang.thinking.in.spring.ioc.orerview.dependency.domain;
 
 /**
  * 用户类

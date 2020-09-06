@@ -1,10 +1,9 @@
-package ioc.overview.dependency.repository;
+package org.geekbang.thinking.in.spring.ioc.orerview.dependency.repository;
 
-import ioc.overview.dependency.domain.User;
+import org.geekbang.thinking.in.spring.ioc.orerview.dependency.domain.User;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.Bean;
 
 import java.util.Collection;
 

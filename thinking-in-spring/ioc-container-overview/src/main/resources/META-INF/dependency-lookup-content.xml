@@ -3,12 +3,12 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="user" class="ioc.overview.dependency.domain.User">
+    <bean id="user" class="org.geekbang.thinking.in.spring.ioc.orerview.dependency.domain.User">
         <property name="id" value="1"></property>
         <property name="name" value="123"></property>
     </bean>
 
-    <bean id="superUser" class="ioc.overview.dependency.domain.SuperUser" parent="user" primary="true">
+    <bean id="superUser" class="org.geekbang.thinking.in.spring.ioc.orerview.dependency.domain.SuperUser" parent="user" primary="true">
         <property name="address" value="杭州"/>
     </bean>
 

@@ -1,15 +1,10 @@
-package ioc.overview.dependency.injection;
+package org.geekbang.thinking.in.spring.ioc.orerview.dependency.injection;
 
-import ioc.overview.annotation.Super;
-import ioc.overview.dependency.domain.User;
-import ioc.overview.dependency.repository.UserRepository;
+import org.geekbang.thinking.in.spring.ioc.orerview.dependency.repository.UserRepository;
 import org.springframework.beans.factory.BeanFactory;
-import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import java.util.Map;
 
 /**
  * 依赖注入示例

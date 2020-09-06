@@ -1,7 +1,7 @@
-package ioc.overview.dependency.lookup;
+package org.geekbang.thinking.in.spring.ioc.orerview.dependency.lookup;
 
-import ioc.overview.annotation.Super;
-import ioc.overview.dependency.domain.User;
+import org.geekbang.thinking.in.spring.ioc.orerview.annotation.Super;
+import org.geekbang.thinking.in.spring.ioc.orerview.dependency.domain.User;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.ObjectFactory;
